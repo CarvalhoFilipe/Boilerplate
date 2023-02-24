@@ -9,6 +9,11 @@
     "lint": "next lint --max-warnings=0",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "src/**/*": [
+      "yarn lint"
+    ]
+  },
   "dependencies": {
     "@next/font": "13.1.6",
     "@types/node": "18.14.0",
@@ -32,5 +37,5 @@
     "husky": "^8.0.0",
     "lint-staged": "^13.1.2",
     "prettier": "2.8.4"
-}
+  }
 }
