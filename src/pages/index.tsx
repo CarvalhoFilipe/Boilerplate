@@ -10,8 +10,9 @@ type Props = {
 }
 
 const bla = 'asd'
+const bla2 = 'asd'
 
-export default function Home({ title = 'React Advanced' }: Props) {
+function Home({ title = 'React Advanced' }: Props) {
   return (
     <>
       <Head>
