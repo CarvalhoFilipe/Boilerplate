@@ -9,10 +9,7 @@ type Props = {
   title: string
 }
 
-const bla = 'asd'
-const bla2 = 'asd'
-
-function Home({ title = 'React Advanced' }: Props) {
+export function Home({ title = 'React Advanced' }: Props) {
   return (
     <>
       <Head>
