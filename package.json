@@ -11,8 +11,7 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "yarn lint",
-      "prettier --config ./.prettierrc.js --write"
+      "yarn lint"
     ]
   },
   "dependencies": {
@@ -38,5 +37,5 @@
     "husky": "^8.0.0",
     "lint-staged": "^13.1.2",
     "prettier": "2.8.4"
-  }
+}
 }
