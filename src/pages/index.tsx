@@ -11,7 +11,6 @@ type Props = {
 
 const bla = 'asd'
 const bla2 = 'asd'
-const bla3 = 'asd'
 
 function Home({ title = 'React Advanced' }: Props) {
   return (
